@@ -54,7 +54,7 @@ body{
 .content h1{
     font-size: 5rem;
     font-weight: bold;
-    color: #ccc;
+    color: black;
     opacity: 0;
     transform: translateY(-20px);
     animation: fadeIn 1.5s ease-in-out forwards;
@@ -62,7 +62,7 @@ body{
 .content p{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ccc;
+    color: black;
     opacity: 0;
     transform: translateY(-20px);
     animation: fadeIn 1.5s ease-in-out forwards;
@@ -105,4 +105,48 @@ body{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+}
+.project-card {
+    background-color: #495057;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: #6c757d;
+}
+.project-card img {
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+
+.project-card .btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease, transform o.2s ease;
+}
+
+.project-card .btn:hover {
+    background-color: #0055b3;
+    transform: scale(1.05);
+}
+.contact-container{
+    margin-left: 270px;
+    padding: 50px;
+    color: white
+}
+.contact-form{
+    background-color: #0c0c0c;
+    padding: 20px;
+    border-radius: 10px;
+}
+.conact-form label {
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea{
+    background-color: wheat;
+    color: #111;
+    font-size: 25px;
 }
